@@ -1,0 +1,123 @@
+
+.contenedorEquiposDerr {
+    /* width: 100%; */
+    height: auto;
+    border: 1px solid;
+    margin: 15px 0;
+    position: relative;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.linea {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.seccionVersusEq {
+    display: flex;
+   
+}
+
+.contenidoVersus {
+    display: flex;
+    align-items: center;
+}
+
+.imagenEscudo {
+    height: 48px;
+    width: auto;
+    margin-right: 60px;
+}
+
+.escudo {
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.Fase1 {
+    text-align: center;
+    margin-left: -10px;
+    font-weight: bold;
+    width: 300px;
+    /* margin: 10px; */
+}
+.ContenedorEquiposPrin {
+    width: 300px; 
+    margin: 10px; 
+    margin-left: 270px;
+}
+
+.ContenedorEquiposSec {
+    width: 300px; 
+    margin: 10px;
+    /* border: 1px solid; */
+    height: 768.88px;
+    margin-top: 170px;
+    margin-left: -35px;
+   
+
+}
+.ContenedorEquiposTer{
+    width: 300px; 
+    margin: 10px;
+    margin-top: 320px;
+    margin-left: -100px;
+}
+.ContenedorEquiposCuar{
+    width: 300px; 
+    margin: 10px;
+    margin-top: 320px;
+    margin-left: -30px;
+
+}
+.ContenedorEquiposQuin{
+    width: 300px; 
+    margin: 10px;
+    margin-top: -780px;
+    margin-left: 1510px;
+}
+.ContenedorEquiposSeis{
+    width: 300px; 
+    margin: 10px;
+    margin-top: -940px;
+    margin-left: 2060px;
+}
+.ContenedorFinal{
+    width: 300px; 
+    margin: 10px;
+    margin-top: -460px;
+    margin-left: 750px; 
+}
+.ContenedorEqGanador{
+    width: 300px; 
+margin-left: -305px;
+    margin-top: -850px;
+
+}
+
+.Equipos2{
+    /* border: 1px solid black; */
+    height: 130px;
+    margin-top: 190px;
+}
+.iconEditar{
+    margin-left: 180px;
+    margin-top: -50px;
+}
+.iconEditar1 {
+    margin-left: 220px;
+    margin-top: -50px;
+}
+.iconEditar2 {
+    margin-left: 220px;
+    margin-top: -50px;
+}
+.Ganador{
+    text-align: center;
+}
+
+

@@ -1,0 +1,87 @@
+.contenedorPrincipal {
+  background-image: url(../../../public/images/iniciarSesion/iniciar.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  background-color: rgba(116, 126, 137, 0.6);
+  width: 100%; /* Cambia el ancho a 100% */
+  height: 100vh; /* Cambia el alto a 100vh */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  position: relative; /* Añade la propiedad position: relative */
+}
+
+.contenedorDatos form {
+  width: 100%;
+  max-width: 400px; /* Añade un máximo ancho para el formulario */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute; /* Añade la propiedad position: absolute */
+  top: 50%; /* Ajusta la posición vertical del formulario */
+  left: 50%; /* Ajusta la posición horizontal del formulario */
+  transform: translate(-50%, -50%); /* Ajusta la posición del formulario */
+}
+
+.campoDato,
+.campoContraseña {
+  margin: 5% 0;
+  width: 80%;
+  max-width: 280px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 5%;
+}
+
+.recupe {
+  color: black;
+}
+
+.botonInicioSesion {
+  border-radius: 20px;
+  background-color: #C63F3F;
+  width: 80%;
+  height: 30px;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 5% 0;
+  padding-left: 5%;
+}
+
+.tituloPrincipal {
+  font-size: 16px;
+  text-align: center;
+}
+
+.etiquetaDato,
+.campoDato,
+.tituloPrincipal,
+.botonInicioSesion,
+.enlaceOlvido {
+  font-weight: bold;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .contenedorPrincipal {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .campoDato,
+  .campoContraseña {
+    width: 90%;
+    max-width: none;
+  }
+}

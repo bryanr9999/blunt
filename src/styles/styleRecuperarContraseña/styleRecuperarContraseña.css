@@ -1,0 +1,86 @@
+.contenedorRecuperarContraseña {
+  background-image: url(../../../public/images/recuperContraseña/depositphotos.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  background-color: rgba(116, 126, 137, 0.6);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.tituloRecuperarContraseña {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contenedorFormulario {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.campoConEtiqueta {
+  margin-bottom: 20px;
+}
+
+.etiquetaDato {
+  font-weight: bold;
+}
+
+.campoDato {
+  width: 80%;
+  max-width: 280px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 5%;
+}
+
+.botonesRecuperarContraseña {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 280px;
+}
+
+.botoncancelar {
+  border-radius: 20px;
+  background-color: #0f0f0f;
+  width: 90%;
+  height: 30px;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 5% 0;
+  padding-left: 5%;
+}
+
+.botonEnviar {
+  border-radius: 20px;
+  background-color: #0f0f0f;
+  width: 90%;
+  height: 30px;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 5% 0;
+  padding-left: 5%;
+}

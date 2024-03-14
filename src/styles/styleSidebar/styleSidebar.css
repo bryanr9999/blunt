@@ -1,0 +1,43 @@
+.barraLateral {
+    height: 60rem;
+    position: fixed;
+    width: max-content;
+    border-radius: 10px;
+background-color: rgba(126, 126, 126, 0.5);
+
+}
+
+.barraLateral:hover {
+    background-color: #53637a;
+    transition: background-color 0.5s ease;
+}
+
+.img {
+    margin-left: 24px;
+}
+
+.img2 {
+    margin-left: 44px;
+}
+
+.lista {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 170px;
+    height: 100%;
+    font-size: small;
+    list-style-type: none;
+}
+
+.contenedor {
+    margin-bottom: 50px;
+    display: grid;
+    place-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
